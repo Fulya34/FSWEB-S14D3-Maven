@@ -5,7 +5,7 @@ public class CarFactory {
 
         CarSkeleton electricCar = new ElectricCar("tesla", "tesla desc", 800, 2000);
         CarSkeleton hybidCar = new HybridCar("toyota","tyt desc",50,500,5);
-        CarSkeleton gasPoweredCar = new GasPoweredCar("honda", "tyt desc",60,100,4);
+        CarSkeleton gasPoweredCar = new GasPoweredCar("honda", "tyt desc",60.0 ,4);
         startEngine(electricCar);
         startEngine(hybidCar);
         startEngine(gasPoweredCar);
